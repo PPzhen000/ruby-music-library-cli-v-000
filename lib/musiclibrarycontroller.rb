@@ -22,7 +22,7 @@ class MusicLibraryController
     puts "What would you like to do?"
     todo = gets.strip
 
-    case input
+    case todo
       when "list songs"
         list_songs
       when "list artists"
